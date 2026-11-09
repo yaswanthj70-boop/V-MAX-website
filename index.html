@@ -171,17 +171,67 @@
  Have a project or business idea? Tell us about it.
  </p>
 
- <form id="contactForm">
-  <input id="name" type="text" placeholder="Your name" required>
-  <input id="email" type="email" placeholder="Your email" required>
-  <input id="subject" type="text" placeholder="Project or service" required>
-  <textarea id="message" placeholder="Tell us about your project..." required></textarea>
-  <button class="btn" type="submit">Send Enquiry ↗</button>
- </form>
+ 
+<form id="contactForm">
+
+  <input id="name" type="text"
+    placeholder="Your name" required>
+
+  <input id="email" type="email"
+    placeholder="Your business email" required>
+
+  <input id="businessName" type="text"
+    placeholder="Business / Brand name" required>
+
+  <select id="subject" required>
+    <option value="">Select a service</option>
+    <option>AI Promotional Video</option>
+    <option>Business Website Development</option>
+    <option>Social Media Content</option>
+    <option>AI Chatbot</option>
+    <option>Business Automation</option>
+    <option>Other Project</option>
+  </select>
+
+  <select id="duration">
+    <option value="">Preferred video duration (if applicable)</option>
+    <option>15 seconds</option>
+    <option>30 seconds</option>
+    <option>60 seconds</option>
+    <option>More than 60 seconds</option>
+    <option>Not applicable</option>
+  </select>
+
+  <select id="budget" required>
+    <option value="">Select your estimated budget</option>
+    <option>Under $25</option>
+    <option>$25–$50</option>
+    <option>$50–$100</option>
+    <option>$100–$250</option>
+    <option>$250+</option>
+    <option>Need a quotation</option>
+  </select>
+
+  <input id="deadline" type="text"
+    placeholder="Expected deadline (e.g. 7 days)">
+
+  <input id="referenceLink" type="url"
+    placeholder="Reference link (optional)">
+
+  <textarea id="message"
+    placeholder="Describe your project and requirements..."
+    required></textarea>
+
+  <button class="btn" type="submit">
+    Send Project Enquiry ↗
+  </button>
+
+</form>
+
  <p id="formStatus"></p>
 
  <p class="contact-note">
- Our business email will be added here after setup.
+ Tell us about your project. We'll review your enquiry and get back to you.
  </p>
 </section>
 
