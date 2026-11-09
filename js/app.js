@@ -10,7 +10,7 @@ form.addEventListener("submit", function(event) {
 
  const body = `Name: ${name}\nEmail: ${email}\nProject: ${subject}\n\n${message}`;
 
- const mailto = "mailto:YOUR_EMAIL_HERE"
+ const mailto = "yaswanthj70@gmail.com";
   + "?subject=" + encodeURIComponent("V-MAX Enquiry: " + subject)
   + "&body=" + encodeURIComponent(body);
 
