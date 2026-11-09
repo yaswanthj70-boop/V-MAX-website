@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yaswanthj70-boop.github.io/V-MAX-website/sitemap.xml
